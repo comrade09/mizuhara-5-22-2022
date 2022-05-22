@@ -127,6 +127,6 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
 - /karma Reply to a message: Check user's karma
 - /karma: Chek karma list of top 10 users
 
-@MizuharaUpdates
+@Shinobu_Update_Channel
 """
 __mod_name__ = "Karma"   

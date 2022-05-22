@@ -51,7 +51,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @MizuharaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @Shinobu_Update_Channel, {e}')
 
 
 
@@ -90,7 +90,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @MizuharaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @Shinobu_Update_Channel, {e}')
 
 
 
@@ -129,7 +129,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @MizuharaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @Shinobu_Update_Channel, {e}')
 
 
 @register(pattern="^/logo ?(.*)")
@@ -167,7 +167,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @MizuharaUpdates , {e}')
+   await event.reply(f'Error Go to Help From  @Shinobu_Update_Channel , {e}')
 
 @register(pattern="^/biglogo ?(.*)")
 async def lego(event):
@@ -204,7 +204,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @MizuharaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @Shinobu_Update_Channel, {e}')
 
    
 @register(pattern="^/wlogo ?(.*)")
@@ -242,7 +242,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @MizuharaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @Shinobu_Update_Channel, {e}')
 
 
 
@@ -260,6 +260,6 @@ __help__ = """
  - /biglogo text :  Create your logo Bigger Than `logo`
  - /wlogo text :  Create your logo with your name
 
-Powerted By @MizuharaUpdates &  Dihan Official 
+Powerted By @Shinobu_Update_Channel &  Dihan Official 
  """
 __mod_name__ = "Logo Maker"

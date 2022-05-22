@@ -1,7 +1,7 @@
 <h1 align="center"><b>❤ Mizuhara v3 ❤</b></h1>
 
 
-<p align="center"><a href="https://t.me/MizuharaSupport_Official"><img src="https://telegra.ph/file/f6afa44d010598c379503.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/@Shinobu_Support"><img src="https://telegra.ph/file/f6afa44d010598c379503.jpg" width="400"></a></p>
 <p align="center">
   <h4 align="center"><b>A Powerful, Smart And Simple Group Manager <br> ... Written with  Pyrogram and Telethon...</b></h4>  
 
@@ -37,7 +37,7 @@ Complete guide on deploying @chizuru_mizuhara_robot's clone on Heroku.
 
 
 ## Join my Updates Channel & Support Chats
-<a href="https://t.me/MizuharaSUPPort_official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/@Shinobu_Support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/MizuharaUpdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
@@ -196,7 +196,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/MizuharaSupport_Official)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/@Shinobu_Support)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  

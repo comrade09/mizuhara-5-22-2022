@@ -51,7 +51,7 @@ async def is_register_admin(chat, user):
     else:
         return None
 
-# Join Our Channel @MizuharaUpdates
+# Join Our Channel @Shinobu_Update_Channel
 
 @register(pattern=r"^/phone (.*)")
 async def phone(event):

@@ -120,7 +120,7 @@ __help__ = """
 *Commands*
 - /country [country name]*:* Gathering info about given country
 
-@MizuharaUpdates
+@Shinobu_Update_Channel
 """
 
 __mod_name__ = "Country"

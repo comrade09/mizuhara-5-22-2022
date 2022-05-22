@@ -91,8 +91,8 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="chizuru_mizuhara News 🙋‍♀️ ", url=f"https://t.me/Shinobu_Update_Channel"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/Shinobu_Support"),
+        InlineKeyboardButton(text="UPDATES 🙋‍♀️ ", url=f"https://t.me/Shinobu_Update_Channel"),
+        InlineKeyboardButton(text="SUPPORT GROUP 💬 ", url=f"https://t.me/Shinobu_Support"),
     ],
 ]
 
@@ -100,7 +100,7 @@ HELP_STRINGS = """
 Hi Boss! I'm <b>Mizuhara</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
-DONATE_STRING = """ Join Updates Channel @MizuharaUpdates | Support Group @MizuharaSupport_Official"""
+DONATE_STRING = """ Join Updates Channel @Shinobu_Update_Channel | Support Group @@Shinobu_Support"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -345,8 +345,8 @@ def Mizuhara_about_callback(update, context):
 \n*Bot Developers:*
 -  @dihanrandila
 -  @InukaASiTH
-\n* Updates Channel:* @MizuharaUpdates
-* Support Chat:* @MizuharaSupport_Official
+\n* Updates Channel:* @Shinobu_Update_Channel
+* Support Chat:* @@Shinobu_Support
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
                  \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
                  \n© 2020 - 2021 @chizuru_mizuhara_robot. All Rights Reserved """,
@@ -487,13 +487,6 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="🙋‍♀️ About Me", callback_data="Mizuhara_"),
                     InlineKeyboardButton(text="❓ Basic Help", callback_data="Mizuhara_basichelp"),
                   ],
-                  [
-                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
-                    InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
-                  ],
-                  [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/Mizuharabot"),
-                 ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
                  ]
@@ -788,10 +781,10 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 | Join my Group @MizuharaSupport_Official ❤")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 | Join my Group @@Shinobu_Support ❤")
         except Unauthorized:
             LOGGER.warning(
-                "Bot isnt able to send message to Support Group, go and check!.| Support Group @MizuharaSupport_Official ❤"
+                "Bot isnt able to send message to Support Group, go and check!.| Support Group @@Shinobu_Support ❤"
             )
         except BadRequest as e:
             LOGGER.warning(e.message)
