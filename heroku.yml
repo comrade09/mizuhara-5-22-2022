@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python3 -m chizuru_mizuharaBot
+  worker: python3 -m Mizuharabot

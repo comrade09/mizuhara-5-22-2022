@@ -1,28 +1,28 @@
-<h1 align="center"><b>❤ chizuru_mizuhara v3 ❤</b></h1>
+<h1 align="center"><b>❤ Mizuhara v3 ❤</b></h1>
 
 
-<p align="center"><a href="https://t.me/Shinobu_Support"><img src="https://telegra.ph/file/f6afa44d010598c379503.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/MizuharaSupport_Official"><img src="https://telegra.ph/file/f6afa44d010598c379503.jpg" width="400"></a></p>
 <p align="center">
   <h4 align="center"><b>A Powerful, Smart And Simple Group Manager <br> ... Written with  Pyrogram and Telethon...</b></h4>  
 
 <p align="center">
-    <a href="https://github.com/dihanofficial/chizuru_mizuharabot/stargazers"><img src="https://img.shields.io/github/stars/dihanofficial/chizuru_mizuharaBot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/dihanofficial/Mizuharabot/stargazers"><img src="https://img.shields.io/github/stars/dihanofficial/Mizuharabot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/dihanofficial/chizuru_mizuharabot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/dihanofficial/chizuru_mizuharabot"> <img src="https://img.shields.io/github/repo-size/dihanofficial/chizuru_mizuharabot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/chizuru_mizuharabot/commits/dihanofficial"> <img src="https://img.shields.io/github/last-commit/dihanofficial/chizuru_mizuharabot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/chizuru_mizuhara/issues"> <img src="https://img.shields.io/github/issues/dihanofficial/chizuru_mizuharabot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/chizuru_mizuharabot/network/members"> <img src="https://img.shields.io/github/forks/dihanofficial/chizuru_mizuharabot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://app.codacy.com/manual/dihanofficial/Mizuharabot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/dihanofficial/Mizuharabot"> <img src="https://img.shields.io/github/repo-size/dihanofficial/Mizuharabot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/dihanofficial/Mizuharabot/commits/dihanofficial"> <img src="https://img.shields.io/github/last-commit/dihanofficial/Mizuharabot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/dihanofficial/Mizuhara/issues"> <img src="https://img.shields.io/github/issues/dihanofficial/Mizuharabot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/dihanofficial/Mizuharabot/network/members"> <img src="https://img.shields.io/github/forks/dihanofficial/Mizuharabot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 
- <b> ⭐️ Thanks to everyone who starred chizuru_mizuhara, That is the greatest pleasure we have ! </b> 
+ <b> ⭐️ Thanks to everyone who starred Mizuhara, That is the greatest pleasure we have ! </b> 
 
 
 
-## Avaiilable on Telegram as [@chizuru_mizuhara_robot](https://t.me/chizuru_mizuhara_robot)
+## Avaiilable on Telegram as [@chizuru_mizuhara_robot](https://t.me/Mizuharaslbot)
 
 ### Video Tutorial:
 Complete guide on deploying @chizuru_mizuhara_robot's clone on Heroku.
@@ -31,14 +31,14 @@ Complete guide on deploying @chizuru_mizuhara_robot's clone on Heroku.
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/Yyw2TfwQTSg)
 
 ### Deploy To Heroku</h4>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dihanofficial/chizuru_mizuharabot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dihanofficial/Mizuharabot)
 
 
 
 
 ## Join my Updates Channel & Support Chats
-<a href="https://t.me/Shinobu_Support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/Shinobu_Update_Channel"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/MizuharaSUPPort_official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/MizuharaUpdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
 
@@ -47,7 +47,7 @@ Complete guide on deploying @chizuru_mizuhara_robot's clone on Heroku.
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `chizuru_mizuharaBot` folder, alongside the `__main__.py` file. 
+This file should be placed in your `Mizuharabot` folder, alongside the `__main__.py` file. 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of 
 your other settings.
 
@@ -56,7 +56,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from chizuru_mizuharaBot.sample_config import Config
+from Mizuharabot.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 12345  # your telegram ID
@@ -170,7 +170,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from chizuru_mizuharaBot import dispatcher`.
+`from Mizuharabot import dispatcher`.
 
 You can then add commands using the usual
 
@@ -190,13 +190,13 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m chizuru_mizuharaBot`
+`python3 -m Mizuharabot`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/Shinobu_Support)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/MizuharaSupport_Official)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
