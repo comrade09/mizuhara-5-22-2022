@@ -77,6 +77,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """Hey there! My name is <b>Mizuhara.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = f"""
+Hello there,The name's *Mizuhara* [🧚‍♂️](https://telegra.ph/file/6a381316b848bc6060f98.jpg)
+I am an Anime themed group management with some fun features.
+Make sure you read *About Me* section below."""
 
 buttons = [
      [
