@@ -1,4 +1,5 @@
 from Mizuharabot import telethn
+from telethon import events
 
 from animedev import client as AnimeDevClient, exceptions
 
