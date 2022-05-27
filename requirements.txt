@@ -1,4 +1,4 @@
-animedev>=0.0.3
+animedev
 cloudmersive_virus_api_client
 PyDictionary
 future
