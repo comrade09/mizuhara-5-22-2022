@@ -5,7 +5,7 @@ from animedev import client as AnimeDevClient, exceptions
 
 @register(pattern='/search')
 async def animedev_function(event):
-    await event.reply(event)
+    await event.reply(str(event))
     anime_name = event.text.split()
     if len(anime_name) <= 1:
         await message.reply_text('Please enter the anime name.\n\n<b>Example:</b>\n/search Doraemon.')
