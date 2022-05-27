@@ -19,8 +19,6 @@ async def animedev_function(client, message):
         return
     msg_text = f'''
 Anime Title: {anime['AnimeTitle']}
-
-Anime Image: {anime['AnimeImg']}
     '''
     buttons = InlineKeyboardMarkup[
         [InlineKeyboardButton('Download', anime['AnimeLink'])],
