@@ -11,10 +11,8 @@ async def animedev_function(event):
         await event.reply('Please enter the anime name.\n\n<b>Example:</b>\n/search Doraemon.', parse_mode='html')
         return
     try:
-        await event.reply('hm')
-        await event.reply(str(anime_name[1:]))
         anime = AnimeDevClient.search(' '.join(anime_name[1:]))
-        await event.reply(str(anime))
+        anime['Search_Query'] = anime['Search_Query'].replace(' ', '+')
     except exceptions.NotFound:
         await event.reply('Anime not found.')
         return
