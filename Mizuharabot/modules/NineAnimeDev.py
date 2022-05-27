@@ -1,11 +1,11 @@
-from Mizuharabot import pbot
-from pyrogram import filters
+from Mizuharabot import telethn
 
 from animedev import client as AnimeDevClient, exceptions
 
-@pbot.on_message(filters.command('search'))
-async def animedev_function(client, message):
-    anime_name = message.text.split()
+@telethn.on(events.Message(incoming=True, pattern='/search'))
+async def animedev_function(event):
+    await event.reply(event)
+    anime_name = event.text.split()
     if len(anime_name) <= 1:
         await message.reply_text('Please enter the anime name.\n\n<b>Example:</b>\n/search Doraemon.')
         return
@@ -20,8 +20,5 @@ async def animedev_function(client, message):
     msg_text = f'''
 Anime Title: {anime['AnimeTitle']}
     '''
-    buttons = InlineKeyboardMarkup([
-        [InlineKeyboardButton('Download', url=anime['AnimeLink'])],
-        [InlineKeyboardButton('Search Query', url=anime['Search_Query'])]
-        ])
-    await message.reply_photo(photo=anime['AnimeImg'], caption=msg_text, reply_markup=buttons)
+    buttons = [[Button.url('Download Link', anime['AnimeLink'])], [Button.url('Search Query', anime['Search_Query'])]]
+    await telethn.send_file(event.chat_id, anime['AnimeImg'], caption=msg_text)
