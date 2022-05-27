@@ -21,7 +21,7 @@ async def animedev_function(event):
         return
     await event.reply('lol')
     msg_text = f'''
-Anime Title: {anime['AnimeTitle']}
+<b>Anime Title:</b> <code>{anime['AnimeTitle']}</code>
     '''
-    buttons = [[Button.url('Download Link', anime['AnimeLink'])], [Button.url('Search Query', anime['Search_Query'])]]
-    await telethn.send_file(event.chat_id, anime['AnimeImg'], caption=msg_text, parse_mode='html')
+    buttons_list = [[Button.url('Download Link', anime['AnimeLink'])], [Button.url('Search Query', anime['Search_Query'])]]
+    await telethn.send_file(event.chat_id, anime['AnimeImg'], caption=msg_text, buttons=buttons_list, parse_mode='html', reply_to=event.id)
