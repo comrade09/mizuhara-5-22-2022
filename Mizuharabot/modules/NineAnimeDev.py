@@ -24,7 +24,4 @@ Anime Title: {anime['AnimeTitle']}
         [InlineKeyboardButton('Download', anime['AnimeLink'])],
         [InlineKeyboardButton('Search Query', anime['Search_Query'])]
         ]
-    try:
-        await message.reply_photo(anime['AnimeImg'], caption=msg_text, reply_markup=buttons)
-    except Exception as e:
-        await message.reply_text(e)
+    await message.reply_photo(photo=anime['AnimeImg'], caption=msg_text, reply_markup=buttons)
