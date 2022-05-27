@@ -12,14 +12,12 @@ async def animedev_function(event):
         return
     try:
         anime = AnimeDevClient.search(' '.join(anime_name[1:]))
-        await event.reply(str(anime))
     except exceptions.NotFound:
         await event.reply('Anime not found.')
         return
     except Exception as e:
         await event.reply(f'[ERROR]: Please report this at @Shinobu_Support.\n\nERROR:\n{e}')
         return
-    await event.reply('lol')
     msg_text = f'''
 <b>Anime Title:</b> <code>{anime['AnimeTitle']}</code>
     '''
