@@ -17,6 +17,7 @@ async def animedev_function(client, message):
     except Exception as e:
         await message.reply_text(f'[ERROR]: {e}\n\nPlease report this at @Shinobu_Support.')
         return
+    await message.reply_text('uwu')
     msg_text = f'''
 Anime Title: {anime['AnimeTitle']}
     '''
