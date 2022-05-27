@@ -3,7 +3,7 @@ from pyrogram import filters
 
 from animedev import client, exceptions
 
-@pbot.on_message(filters.command("search"))
+@pbot.on_message(filters.command('search'))
 async def animedev_function(client, message):
     anime_name = message.text.split()
     if len(anime_name) <= 1:
