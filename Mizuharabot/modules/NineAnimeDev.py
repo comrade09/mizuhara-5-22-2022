@@ -3,7 +3,7 @@ from Mizuharabot.events import register
 
 from animedev import client as AnimeDevClient, exceptions
 
-@register(pattern='/search'))
+@register(pattern='/search')
 async def animedev_function(event):
     await event.reply(event)
     anime_name = event.text.split()
