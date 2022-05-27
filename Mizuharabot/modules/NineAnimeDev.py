@@ -17,7 +17,6 @@ async def animedev_function(client, message):
     except Exception as e:
         await message.reply_text(f'[ERROR]: {e}\n\nPlease report this at @Shinobu_Support.')
         return
-    await message.reply_text('uwu')
     msg_text = f'''
 Anime Title: {anime['AnimeTitle']}
     '''
@@ -25,4 +24,7 @@ Anime Title: {anime['AnimeTitle']}
         [InlineKeyboardButton('Download', anime['AnimeLink'])],
         [InlineKeyboardButton('Search Query', anime['Search_Query'])]
         ]
-    await message.reply_photo(anime['AnimeImg'], caption=msg_text, reply_markup=buttons)
+    try:
+        await message.reply_photo(anime['AnimeImg'], caption=msg_text, reply_markup=buttons)
+    except Exception as e:
+        await message.reply_text(e)
