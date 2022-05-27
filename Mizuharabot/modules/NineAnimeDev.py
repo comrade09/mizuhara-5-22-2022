@@ -3,7 +3,7 @@ from telethon import events
 
 from animedev import client as AnimeDevClient, exceptions
 
-@telethn.on(events.Message(incoming=True, pattern='/search'))
+@telethn.on(events.NewMessage(incoming=True, pattern='/search'))
 async def animedev_function(event):
     await event.reply(event)
     anime_name = event.text.split()
