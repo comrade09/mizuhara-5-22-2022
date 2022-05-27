@@ -24,4 +24,5 @@ Anime Title: {anime['AnimeTitle']}
         [InlineKeyboardButton('Download', anime['AnimeLink'])],
         [InlineKeyboardButton('Search Query', anime['Search_Query'])]
         ]
-    await message.reply_photo(photo=anime['AnimeImg'], caption=msg_text, reply_markup=buttons)
+    await message.reply_text(message)
+    await pbot.send_photo(chat_id=message.chat.id, photo=anime['AnimeImg'], caption=msg_text, reply_markup=buttons, reply_to_message_id=message.message_id)
