@@ -1,7 +1,7 @@
 from Mizuharabot import pbot
 from pyrogram import filters
 
-from animedev import client, exceptions
+from animedev import client as AnimeDevClient, exceptions
 
 @pbot.on_message(filters.command('search'))
 async def animedev_function(client, message):
@@ -10,7 +10,7 @@ async def animedev_function(client, message):
         await message.reply_text('Please enter the anime name.\n\n<b>Example:</b>\n/search Doraemon.')
         return
     try:
-        anime = client.search(anime_name[1:])
+        anime = AnimeDevClient.search(anime_name[1:])
     except exceptions.NotFound:
         await message.reply_text('Anime not found.')
         return
