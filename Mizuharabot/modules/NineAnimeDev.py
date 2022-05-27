@@ -17,12 +17,12 @@ async def animedev_function(client, message):
     except Exception as e:
         await message.reply_text(f'[ERROR]: {e}\n\nPlease report this at @Shinobu_Support.')
         return
+    await message.reply_text(message)
     msg_text = f'''
 Anime Title: {anime['AnimeTitle']}
     '''
     buttons = InlineKeyboardMarkup[
-        [InlineKeyboardButton('Download', anime['AnimeLink'])],
-        [InlineKeyboardButton('Search Query', anime['Search_Query'])]
+        [InlineKeyboardButton('Download', url=anime['AnimeLink'])],
+        [InlineKeyboardButton('Search Query', url=anime['Search_Query'])]
         ]
-    await message.reply_text(message)
     await pbot.send_photo(chat_id=message.chat.id, photo=anime['AnimeImg'], caption=msg_text, reply_markup=buttons, reply_to_message_id=message.message_id)
