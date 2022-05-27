@@ -6,13 +6,15 @@ from animedev import client as AnimeDevClient, exceptions
 
 @register(pattern='/search')
 async def animedev_function(event):
-    await event.reply('for test')
     anime_name = event.message.message.split()
     if len(anime_name) <= 1:
-        await event.reply('Please enter the anime name.\n\n<b>Example:</b>\n/search Doraemon.')
+        await event.reply('Please enter the anime name.\n\n<b>Example:</b>\n/search Doraemon.', parse_mode='html')
         return
     try:
+        await event.reply('hm')
+        await event.reply(str(anime_name[1:]))
         anime = AnimeDevClient.search(' '.join(anime_name[1:]))
+        await event.reply(str(anime))
     except exceptions.NotFound:
         await event.reply('Anime not found.')
         return
