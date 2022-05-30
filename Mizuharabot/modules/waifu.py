@@ -4,7 +4,7 @@ from Mizuharabot import telethn
 from Mizuharabot.events import register
 from telethon import Button
 
-from waifuapi import WaifuClient
+from .waifuapi import WaifuClient
 
 @register(pattern='/waifu')
 async def animedev_function(event):
