@@ -6,7 +6,7 @@ from telethon import Button
 
 from .waifuapi import WaifuClient
 
-@register(pattern='/waifu')
+@register(pattern='/mywaifu')
 async def animedev_function(event):
     msg_text = f'''
 <b>Waifu's Name:</b> <code>{waifu['AnimeTitle']}</code>
