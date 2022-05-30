@@ -8,7 +8,7 @@ from .waifuapi import WaifuClient
 
 @register(pattern='/mywaifu')
 async def my_waifu_function(event):
-    await event.reply('lol')
+    waifu = WaifuClient.getRandomWaifu()
     msg_text = f'''
 <b>Waifu's Name:</b> <code>{waifu['AnimeTitle']}</code>
 
@@ -20,6 +20,6 @@ async def my_waifu_function(event):
 <code>{waifu['about']}</code>
     '''
     buttons_list = [
-    [Button.url('My Anime List', waifu['url'])]
+    Button.url('My Anime List', waifu['url'])
     ]
     await telethn.send_file(event.chat_id, waifu['images']['jpg']['image_url'], caption=msg_text, buttons=buttons_list, parse_mode='html', reply_to=event.id)
