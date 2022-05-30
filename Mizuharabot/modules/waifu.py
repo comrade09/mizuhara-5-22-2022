@@ -14,7 +14,7 @@ async def my_waifu_function(event):
 
 <b>Waifu's Name In Kanji:</b> <code>{waifu['name_kanji']}</code>
 
-<b>Waifu's Nicknames:</b> {'<code> </code>, '.join(waifu['nicknames'])}
+<b>Waifu's Nicknames:</b> {'<code>' + ',</code> <code>'.join(waifu['nicknames']) + '</code>'}
 
 <b>Waifu's About:</b>
 <code>{waifu['about']}</code>
