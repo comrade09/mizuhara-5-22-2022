@@ -10,7 +10,7 @@ from .waifuapi import WaifuClient
 async def my_waifu_function(event):
     waifu = WaifuClient.getRandomWaifu()
     msg_text = f'''
-<b>Waifu's Name:</b> <code>{waifu['AnimeTitle']}</code>
+<b>Waifu's Name:</b> <code>{waifu['name']}</code>
 
 <b>Waifu'w Name In Kanji:</b> <code>{waifu['name_kanji']}</code>
 
